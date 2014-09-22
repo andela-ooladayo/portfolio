@@ -29,6 +29,9 @@ header h2{
 	float:left;
 	margin-left:5%;
 	font-size:5ex;
+	color:white;
+	font-family: 'Lobster', cursive;
+	font-weight:normal;
 	margin-top:-0%;
 }
 header nav {
@@ -45,9 +48,6 @@ header nav ul li{
 	padding: .7% 0 .7% 0%;
 	margin-left: 4%;
 	text-shadow:1.5px 1.5px;
-	
-
-	
 }
 header nav ul li a:hover, header nav ul li a:active{
 	color:yellow;
@@ -57,46 +57,20 @@ header nav ul li a{
 	color: white;
 	padding:13%;
 	font-weight: bold;
+	font-family: 'Play', sans-serif;
+	font-size:2ex;
 }
 #firstContainer{
 	height: 400px;
 	width:100%;
 	position: relative;
 	background:url('../images/bckimg2.jpg');
-	background-size: 100% 100%;*/
+	background-size: 100% 100%;
 	background-color: lightgreen;
 	margin:100px 0% 0 0%;
 
 }
-/*#welcomeNote{
-	height: 250px;
-	text-align: center;
-	width:80%;
-	float: right;
-	background: url('../images/bck2.jpg') no-repeat;
-	background-size: 100% 100%;
-}
-#welcomeNote h2{
-	font-size: 7ex;
-	padding: 6% 2% 0% 0%
-}
-#welcomeNote p{
-	font-size: 5ex;
-	font-style: italic;
-	padding-left: 4%;
-}
-#myImage{
-	width:20%;
-	background:url('../images/mypix1.png');
-	background-size: 100% 100%;
-	background-color: lightgreen;
-	height: 250px;
-	float: left;
-}*/
-/*.wrapper h2{
-	margin: 1% 0 -3% 3%;
-	font-size: 4ex;
-}*/
+
 .secondContainer{
 	width:90%;
 	background: rgba(256,256,256,0.99);
@@ -133,11 +107,13 @@ header nav ul li a{
 }
 .secondContainer li span{
    	color: green;
+	font-family: 'Dosis', sans-serif;
 }
 .secondContainer h3{
 	text-indent: 6%;
 	padding-top: 3%;
 	font-size:4ex;
+	font-family: 'Pacifico', cursive;
 }
 .secondContainer h4{
 	font-size: 3ex;
@@ -146,14 +122,17 @@ header nav ul li a{
 }
 .secondContainer p{
 	font-size: 2.5ex;
+	font-family: Helvetica,arial,sans-serif;
 	text-indent: 25%;
 }
 .secondContainer h6{
 	margin-right:16%;
+	
 }
 .secondContainer label, .secondContainer h6{
 	font-size: 2.5ex;
 	margin-left: 6%;
+	font-family: 'Dosis', sans-serif;
 	line-height:4ex;
 	font-weight:normal;
 }
@@ -178,6 +157,7 @@ footer img:hover{
 }
 footer p{
 	font-size:2.5ex;
+	font-family: 'Bitter', serif;
 }
 
 @media screen and (max-width: 1024px){
