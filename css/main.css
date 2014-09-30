@@ -91,10 +91,14 @@ header nav ul li a{
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius:20px;
 	text-align: center;
+	overflow: auto;
+	color: green;
 }
 .secondContainer li:hover{
 	background-color:rgba(0,14,0,0.8);
+	color:white;
 }
+
 #photo{
 	height:100px;
 	width:100px;
@@ -106,7 +110,7 @@ header nav ul li a{
 	height: 100%;
 }
 .secondContainer li span{
-   	color: green;
+   
 	font-family: 'Dosis', sans-serif;
 }
 .secondContainer h3{
@@ -176,7 +180,6 @@ footer p{
 	}
 	.wrapper nav ul li{
 		display: block;
-		font-size: 2ex;
 	}
 	#welcomeNote h2{
 		font-size: 4ex;
@@ -193,8 +196,5 @@ footer p{
 	#secondContainer p{
 		text-indent: 1%;
 		padding-left: 5%
-	}
-	header h2{
-	font-size:3ex;
 	}
 }
